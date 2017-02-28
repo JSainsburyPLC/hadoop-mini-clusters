@@ -1,3 +1,5 @@
+hadoop-mini-clusters-oozie/embedded_hdfs/
+
 *.class
 
 .DS_Store
