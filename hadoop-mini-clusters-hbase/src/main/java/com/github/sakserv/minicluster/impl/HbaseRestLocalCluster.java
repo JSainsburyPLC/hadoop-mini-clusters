@@ -254,6 +254,6 @@ class HbaseRestLocalCluster implements MiniCluster {
 
     Pair<FilterHolder, Class<? extends ServletContainer>> loginServerPrincipal(UserProvider userProvider, Configuration conf) throws Exception {
         Class<? extends ServletContainer> containerClass = ServletContainer.class;
-        return new Pair<>(null, containerClass);
+        return new Pair<FilterHolder, Class<? extends ServletContainer>>(null, containerClass);
     }
 }
