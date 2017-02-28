@@ -44,14 +44,14 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus snapshot repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>dpp-nexus-snapshots</id>
+            <name>Nexus Snapshot</name>
+            <url>http://nexus.ci.data-platform.io:8082/repository/dpp-snapshot</url>
         </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Sonatype Nexus release repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>dpp-nexus-releases</id>
+            <name>Nexus Releases</name>
+            <url>http://nexus.ci.data-platform.io:8082/repository/dpp-release</url>
         </repository>
     </distributionManagement>
 
